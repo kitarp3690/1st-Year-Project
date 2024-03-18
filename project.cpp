@@ -1401,7 +1401,9 @@ void user::transaction_history(){
 }
 
 int main(){
-   login_page();
+     cout<<"Developed by Kripesh and teams";
+    cout<<"All right reserverd";
+    login_page();
     return 0;
 
 }
