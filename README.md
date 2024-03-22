@@ -1,24 +1,25 @@
-# 1st-Year-Project ( c++ )
-This is a project of Bank Management System simulation in c++ . This system has two types of user :- 
-    1)Admin(Bank staff) 
-    2)User(Bank customer)
+# 1st-Year-Project (C++)
 
-This admin can perform basic tasks such as :-
-  Note:- admin.txt has id,password for admin login (i.e. id=admin,pw=admin). Anyone can add more admin by writting admin_name space     admin_password in this admin.txt folder
-    1)Creating user account
-    2)Search Account
-    3)Deposit money
-    4)Withdraw money
-    5)Delete account
+This repository contains a Bank Management System simulation implemented in C++. The system caters to two types of users:
 
-whereas the User can perform tasks such as :-
-  1)View person information
-  2)Check transaction history
-  3)Change password 
-    ( NOTE: When user is created by admin the username and password for user will be:
-        username: User Mobile Number(98.....)
-        password: User 1st( first name )
-    )
+1. Admin (Bank staff)
+2. User (Bank customer)
 
+## Admin Features:
+- Creating user accounts
+- Searching accounts
+- Depositing money
+- Withdrawing money
+- Deleting accounts
 
-  
+Note: The file `admin.txt` contains the admin's ID and password for login (default is `id=admin`, `pw=admin`). Additional admins can be added by appending `admin_name admin_password` entries to this file.
+
+## User Features:
+- Viewing personal information
+- Checking transaction history
+- Changing password
+
+Note: When a user account is created by an admin, the username and password will be as follows:
+- Username: User's Mobile Number (98.....)
+- Password: User's First Name
+
