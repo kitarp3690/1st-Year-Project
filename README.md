@@ -1,6 +1,6 @@
 # 1st-Year-Project (C++)
 
-This repository contains a Bank Management System simulation implemented in C++. The system caters to two types of users:
+This repository contains a Bank Management System simulation implemented in C++. The system consists of two types of users:
 
 1. Admin (Bank staff)
 2. User (Bank customer)
